@@ -15,10 +15,11 @@ A discrete, digitally-controlled synchronous buck converter designed for a 48V i
 | Output Current | 5A (continuous) |
 | Output Power | 120W |
 | Topology | Synchronous Buck |
-| Switching Frequency | 50 kHz |
-| Inductor | 180 µH (toroidal) |
-| Inductor Current Ripple | ~1.33 A peak-to-peak |
-| Peak Inductor Current | ~5.67 A |
+| Switching Frequency | 100 kHz |
+| Inductor | 80 µH (E42-CF139 Ferrite core)  |
+| Inductor Current Ripple | ~1.50 A peak-to-peak |
+| Peak Inductor Current | ~5.75 A |
+| RMS Inductor Current | ~5 A |
 | Control | Open-loop PWM (STM32 digital control interface ready) |
 | PCB | 2-layer, FR4, 1 oz copper, home-etched |
 
