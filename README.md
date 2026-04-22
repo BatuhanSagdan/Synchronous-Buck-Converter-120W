@@ -12,7 +12,7 @@ A discrete, digitally-controlled synchronous buck converter designed for a 48V i
 |---|---|
 | Input Voltage | 48V DC |
 | Output Voltage | 24V DC |
-| Output Current | 5A (continuous) |
+| Output Current | 5A (CCM) |
 | Output Power | 120W |
 | Topology | Synchronous Buck |
 | Switching Frequency | 100 kHz |
@@ -51,7 +51,7 @@ A discrete, digitally-controlled synchronous buck converter designed for a 48V i
 48V_RAW ─→ [Reverse Polarity Protection] ─→ 48V_PROT ─→ [HS MOSFET Q2] ─→ SW Node
                     (IRF5210 P-FET)                        (IRF3710PBF)      │
                     (TVS 58V)                                                 │
-                                                                              ├─→ [180µH Inductor] ─→ [Output Caps] ─→ Vout_OUT (24V/5A)
+                                                                              ├─→ [80µH Inductor] ─→ [Output Caps] ─→ Vout_OUT (24V/5A)
                                                                               │                            │
                                                               [LS MOSFET Q3] ←┘                    [HLSR-10P Current Sensor]
                                                               (IRF3710PBF)                                  │
@@ -63,7 +63,30 @@ A discrete, digitally-controlled synchronous buck converter designed for a 48V i
 ```
  
 ---
+ ## Inductor Design
  
+Custom-wound inductor using area-product (AP) method from first principles.
+ 
+| Parameter | Value |
+|---|---|
+| Core | COSMO CF139EE4220 (EE42/21/20) |
+| Material | CF139 (MnZn power ferrite, µr = 2100) |
+| Ae | 240 mm² |
+| le | 97 mm |
+| Ve | 23.3 cm³ |
+| Air Gap | 0.8 mm spacer shim (all legs) |
+| Effective µr | 115 |
+| AL (with fringing) | ~403 nH/turn² |
+| Turns | 14 (2 layers: 7 + 7 with Kapton interlayer) |
+| Wire | 9× parallel 0.4 mm (AWG 26) enameled copper |
+| Winding Fill | 18.3% |
+| Bpeak | 135 mT (saturation limit: 390 mT → 35% utilization) |
+| Core Loss | ~0.19 W (Steinmetz @ 100 kHz) |
+| Copper Loss | ~0.46 W (DC, 18.4 mΩ winding resistance) |
+| Total Loss | ~0.65 W |
+| Temperature Rise | ~17°C |
+
+
 ## Design Highlights
  
 ### Three Isolated Ground Domains
@@ -142,7 +165,7 @@ PGND and SGND are kept fully isolated (no single-point connection) to eliminate 
 | Q1 | IRF5210PBF | TO-220 | P-channel MOSFET, reverse polarity protection |
 | Q2 | IRF3710PBF | TO-220 | N-channel MOSFET, high-side switch |
 | Q3 | IRF3710PBF | TO-220 | N-channel MOSFET, low-side switch |
-| L1 | 180 µH | Toroidal (THT) | Output inductor |
+| L1 | 80 µH | E42-CF139 Ferrite Core | Output inductor |
 | D1 | TVS 58V | THT | Input transient suppression |
 | D2 | 12V Zener | THT | Q1 gate clamp |
 | D3, D4 | 15V Zener | THT | Q2/Q3 gate clamps |
@@ -194,7 +217,7 @@ PGND and SGND are kept fully isolated (no single-point connection) to eliminate 
 ## Author
  
 **Batuhan Sagdan**
-Electrical Engineering, 2nd Year
+Electrical Engineering Major, 2nd Year
 Yıldız Technical University (YTÜ)
  
 ---
