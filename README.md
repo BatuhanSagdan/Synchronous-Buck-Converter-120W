@@ -27,13 +27,12 @@ A discrete, digitally-controlled synchronous buck converter delivering 120W from
 <img width="969" height="647" alt="image" src="https://github.com/user-attachments/assets/6389e49c-58b4-4eaf-8eb9-52bb986d4dfe" />
 <img width="1238" height="759" alt="image" src="https://github.com/user-attachments/assets/c3beba02-01f4-4eec-ba90-c12c25fb9e00" />
 <img width="1066" height="713" alt="image" src="https://github.com/user-attachments/assets/61d08577-af57-49de-88d6-4fa987c263ef" />
+<img width="1278" height="520" alt="image" src="https://github.com/user-attachments/assets/81a6e82f-5003-4459-98a0-763c88478377" />
 <img width="1898" height="871" alt="image" src="https://github.com/user-attachments/assets/fa6e32c6-ca24-4d32-b004-29f4259516e5" />
 <img width="1896" height="877" alt="image" src="https://github.com/user-attachments/assets/3c478d91-96bf-4e75-ba09-a72760013631" />
 <img width="1911" height="864" alt="image" src="https://github.com/user-attachments/assets/394f8750-82be-4471-bf6a-b664ec6a96b8" />
 <img width="1895" height="872" alt="image" src="https://github.com/user-attachments/assets/d865698c-3294-45c2-805c-90ae0877f8aa" />
 <img width="1901" height="854" alt="image" src="https://github.com/user-attachments/assets/8c9db0eb-48d0-45f0-9b87-b74826392b24" />
-
-
 <img width="1013" height="530" alt="image" src="https://github.com/user-attachments/assets/4e78a6cb-e71a-4e42-8ddb-d92f4a9f4836" />
 <img width="790" height="344" alt="image" src="https://github.com/user-attachments/assets/dc66b3d1-cb89-4b33-93ef-855494b37b64" />
 <img width="564" height="638" alt="image" src="https://github.com/user-attachments/assets/1d11ded9-721b-4393-aff7-fd81120df8ae" />
@@ -41,7 +40,7 @@ A discrete, digitally-controlled synchronous buck converter delivering 120W from
 <img width="582" height="446" alt="image" src="https://github.com/user-attachments/assets/84132152-55f4-4ff9-924d-2d665da8c7f7" />
 <img width="550" height="485" alt="image" src="https://github.com/user-attachments/assets/62d848c8-b51a-4c06-b9f0-a5b920fd88fa" />
 <img width="402" height="577" alt="image" src="https://github.com/user-attachments/assets/571d69f6-68ea-4b9d-9654-6686db4d7e92" />
-<img width="1278" height="520" alt="image" src="https://github.com/user-attachments/assets/81a6e82f-5003-4459-98a0-763c88478377" />
+
 
 
 ---
