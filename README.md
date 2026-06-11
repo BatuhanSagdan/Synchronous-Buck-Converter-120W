@@ -25,7 +25,7 @@ A discrete, digitally-controlled synchronous buck converter delivering 120W from
 
 
 <img width="969" height="647" alt="image" src="https://github.com/user-attachments/assets/6389e49c-58b4-4eaf-8eb9-52bb986d4dfe" />
-<img width="1238" height="759" alt="image" src="https://github.com/user-attachments/assets/c3beba02-01f4-4eec-ba90-c12c25fb9e00" />
+<img width="1136" height="760" alt="image" src="https://github.com/user-attachments/assets/656cb170-0a76-4284-a9b5-d2df55893550" />
 <img width="1066" height="713" alt="image" src="https://github.com/user-attachments/assets/61d08577-af57-49de-88d6-4fa987c263ef" />
 <img width="1278" height="520" alt="image" src="https://github.com/user-attachments/assets/81a6e82f-5003-4459-98a0-763c88478377" />
 <img width="1898" height="871" alt="image" src="https://github.com/user-attachments/assets/fa6e32c6-ca24-4d32-b004-29f4259516e5" />
